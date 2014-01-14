@@ -26,7 +26,7 @@ extern class Sound
 
 	public static function removeAllSounds():Void;
 	public static function removeManifest(manifest:Array<Dynamic>):Dynamic;
-	public static function removeSound(src:String):Void;
+	public static function removeSound(src:String):Bool;
 
 	public static function setMute(value:Bool):Bool;
 	public static function setVolume(value:Float):Void;
