@@ -32,6 +32,7 @@ extern class Sound
 	public static function setVolume(value:Float):Void;
 	public static function stop():Void;
 
+	public static var alternateExtensions:Array<String>;
 	public static var activePlugin:Dynamic;
 	//public static var AUDIO_TIMEOUT:Float;
 	public static var defaultInterruptBehavior:String;
